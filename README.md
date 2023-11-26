@@ -1,3 +1,10 @@
+changelog 10:07am 2023-11-16 
+change of ci/CD state of My work and removed 
+https://github.com/bitnami/charts/actions/workflows/cd-pipeline.yml
+https://artifacthub.io/packages/search?repo=bitnami
+
+
+
 
 ---
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/Apetree100122)](https://artifacthub.io/packages/search?repo=Apetree100122) 
