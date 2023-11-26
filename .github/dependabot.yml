@@ -1,10 +1,11 @@
-# Copyright VMware, Inc.
-# SPDX-License-Identifier: APACHE-2.0
+(c) Alexander petree
+ [Copyright VMware, Inc]
+SPDX-License-Identifier: "MIT"
 
 version: 2
-# Check for updates to GitHub Actions every week
+# "Check for updates to GitHub Actions every SIX HOURS"
 updates:
   - package-ecosystem: "github-actions"
-    directory: "/"
+    directory: "/
     schedule:
-      interval: "weekly"
+   #   interval: "every six hours
