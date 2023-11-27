@@ -1,0 +1,11 @@
+Analytics,ApplicationServer
+      CMS,CRM,CertificateAuthority
+         Database,DeveloperTools
+           Forum
+Human_Resource_Management
+Infrastructure
+   Log-Management
+    Machine-Learning
+       Project-Management
+Wiki,WorkFlow
+E-Commerce,E-Learning
