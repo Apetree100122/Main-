@@ -50,8 +50,8 @@ jobs:
           project-name: Support
           # If the author comes from Bitnami, send it to Bitnami. Otherwise, all to Triage
           column-name: ${{ (contains(fromJson(env.BITNAMI_TEAM), steps.get-issue.outputs.author)) && 'From Bitnami' || 'Triage' }}
-          token: "${{ secrets.BITNAMI_BOT_TOKEN }}"
-          issue-number: ${{ steps.get-issue.outputs.number }}
+    
+          issue-number: ${{ steps.get-issue.outputs.number}}
   labeling:
     name: Set labels for Automated PRs
     runs-on: ubuntu-latest
@@ -68,6 +68,4 @@ jobs:
       - name: Verify labeling
         uses: fmulero/labeler@f49bf680252fc8ac12cbebb6e0ed8ea19d0712da
         with:
-          # Bitnami bot token is required to trigger CI workflows
-          repo-token: ${{ secrets.BITNAMI_BOT_TOKEN }}
           add-labels: verify
